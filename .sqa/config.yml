@@ -10,8 +10,8 @@ sqa_criteria:
     repos:
       this_repo:
         commands:
-        - '/bin/curl -H ''Accept: application/json'' -H ''Content-Type: application/json''
+        - 'curl -H ''Accept: application/json'' -H ''Content-Type: application/json''
           -H ''Authorization: Basic bWFydmVsOndvbmRlcndvbWFu'' -X POST -d ''{"metadata_service_endpoint":"http://digital.csic.es/dspace-oai/request","metadata_service_type":"oai_pmh","object_identifier":"http://hdl.handle.net/10261/157765","test_debug":true,"use_datacite":true}''
           http://localhost:1071/fuji/api/v1/evaluate'
-        container: qc.fair_stinky-purple-dunker
+        container: qc.fair_sleazy-champagne-chimpanzee
 timeout: 600
