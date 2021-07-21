@@ -1,5 +1,5 @@
 services:
-  qc.fair_stinky-purple-dunker:
+  qc.fair_sleazy-champagne-chimpanzee:
     image: steinsteiny/fuji:fair
     volumes:
     - source: ./
